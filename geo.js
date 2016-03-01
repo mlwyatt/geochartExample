@@ -3,6 +3,7 @@ google.charts.setOnLoadCallback(drawRegionsMap);
 
 function drawRegionsMap() {
   var data = google.visualization.arrayToDataTable([
+    //state abbreviations work too
     ['State', 'Violations'],
     ['Alabama', 1], ['Alaska', 2],
     ['Arizona', 3], ['Arkansas', 4],
